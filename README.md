@@ -1,6 +1,6 @@
 # Schedule-Next
 
-![schedule frontend](assets\image_1.png)
+![schedule frontend](./assets/image_1.png)
 
 ## About the project
 
