@@ -31,7 +31,7 @@ The **Schedule** project is an online agenda to detail meetings with the aim of 
 This project uses containerization via docker, so the entire environment to run the project is already configured. Just run the following command in the terminal
 
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
 ## Author
