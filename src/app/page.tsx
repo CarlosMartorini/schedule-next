@@ -81,9 +81,9 @@ export default function SchedulerDashboard() {
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
 
-  const currentDate = new Date();
-  const currentMonth = currentDate.getMonth();
-  const currentYear = currentDate.getFullYear();
+  // const currentDate = new Date();
+  // const currentMonth = currentDate.getMonth();
+  // const currentYear = currentDate.getFullYear();
 
   const calendarDays = generateCalendarDays(selectedYear, selectedMonth);
 

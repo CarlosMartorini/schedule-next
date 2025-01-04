@@ -1,8 +1,22 @@
+# version: '3.8'
+# services:
+#   nextjs-app:
+#     build: .
+#     ports:
+#       - "8080:8080"
+#     volumes:
+#       - .:/app
+#       - /app/node_modules
+#     environment:
+#       NODE_ENV: production
+
+version: "3.8"
 services:
-  web:
-    build: .
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
-    volumes:
-      - .:/app
-    command: npm run dev
+    environment:
+      NODE_ENV: production
